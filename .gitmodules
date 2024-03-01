@@ -1,0 +1,6 @@
+[submodule "test/framework"]
+	path = test/framework
+	url = https://gist.github.com/d68150fee005d88a2777e13868f2efef.git
+[submodule "lib/sat_code"]
+	path = lib/sat_code
+	url = https://github.com/Bill-Gray/sat_code
