@@ -1,5 +1,6 @@
 /* Copyright (C) 2018, Project Pluto.  See LICENSE.  */
 
+#include "sgp.h"
 #include <math.h>
 
 #define ao       params[0]
@@ -14,7 +15,7 @@
 #define c5       params[9]
 #define c6       params[10]
 
-void SGP_init( double *params, const tle_t *tle)
+void spmp_sgp_init( double *params, const tle_t *tle)
 {
    double c1, c2, c3, c4, r1, cosio, sinio, a1, d1, po, po2no;
 
@@ -44,7 +45,7 @@ void SGP_init( double *params, const tle_t *tle)
 }
 
 
-int SGP( const double tsince, const tle_t *tle, const double *params,
+int spmp_sgp( const double tsince, const tle_t *tle, const double *params,
                                      double *pos, double *vel)
 {
   double

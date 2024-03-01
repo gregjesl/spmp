@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "sgp.h": "c",
+        "norad.h": "c",
+        "math.h": "c",
+        "norad_in.h": "c"
+    }
+}
